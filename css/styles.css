@@ -199,7 +199,7 @@ body {
 }
 
 .hero__img {
-  width: 100%;
+  width: 80%;
 }
 
 .brands-box {
@@ -309,6 +309,10 @@ body {
   .hero__text {
     margin-top: 3.2rem;
     margin-bottom: 3.2rem;
+  }
+
+  .hero__img {
+    width: 100%;
   }
 
   picture {
