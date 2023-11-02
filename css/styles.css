@@ -1,0 +1,24 @@
+:root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--medium-gray);
+  background-color: var(--almost-white);
+}
