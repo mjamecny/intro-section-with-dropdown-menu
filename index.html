@@ -18,5 +18,110 @@
     <link rel="stylesheet" href="css/styles.css" />
     <title>Frontend Mentor | Intro section with dropdown navigation</title>
   </head>
-  <body></body>
+  <body>
+    <div class="background"></div>
+    <header class="header">
+      <img src="imgs/logo.svg" class="logo" />
+      <img class="hamburger" src="imgs/icon-menu.svg" alt="hamburger icon" />
+      <img
+        class="hamburger-close"
+        src="imgs/icon-close-menu.svg"
+        alt="hamburger close icon"
+      />
+      <div class="nav-box">
+        <nav class="nav">
+          <ul class="nav__links">
+            <li class="nav__link nav__link--features">
+              <a href="#"
+                >Features
+                <img
+                  src="imgs/icon-arrow-down.svg"
+                  alt="arrow icon down"
+                  class="arrow-icon"
+              /></a>
+            </li>
+            <ul class="submenu submenu--features">
+              <li class="submenu__link">
+                <img src="imgs/icon-todo.svg" alt="todo icon" /><a href="#"
+                  >Todo List</a
+                >
+              </li>
+              <li class="submenu__link">
+                <img src="imgs/icon-calendar.svg" alt="calendar icon" /><a
+                  href="#"
+                  >Calendar</a
+                >
+              </li>
+              <li class="submenu__link">
+                <img src="imgs/icon-reminders.svg" alt="reminders icon" /><a
+                  href="#"
+                  >Reminders</a
+                >
+              </li>
+              <li class="submenu__link">
+                <img src="imgs/icon-planning.svg" alt="planning icon" /><a
+                  href="#"
+                  >Planning</a
+                >
+              </li>
+            </ul>
+            <li class="nav__link nav__link--company">
+              <a href="#"
+                >Company<img
+                  src="imgs/icon-arrow-down.svg"
+                  alt="arrow icon down"
+                  class="arrow-icon"
+              /></a>
+            </li>
+            <ul class="submenu submenu--company">
+              <li class="submenu__link"><a href="#">History</a></li>
+              <li class="submenu__link"><a href="#">Our Team</a></li>
+              <li class="submenu__link"><a href="#">Blog</a></li>
+            </ul>
+            <li class="nav__link"><a href="#">Careers</a></li>
+            <li class="nav__link"><a href="#">About</a></li>
+          </ul>
+        </nav>
+
+        <div class="button-box">
+          <a href="#" class="login-btn">Login</a
+          ><button class="btn btn--transparent btn--md">Register</button>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="grid">
+        <div class="hero-box">
+          <h1 class="hero__title">Make remote work</h1>
+          <p class="hero__text">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity soar.
+          </p>
+          <button class="btn btn--dark btn--lg">Learn more</button>
+          <div class="brands-box">
+            <img src="imgs/client-databiz.svg" alt="databiz logo" /><img
+              src="imgs/client-audiophile.svg"
+              alt="audiophile logo"
+            /><img src="imgs/client-meet.svg" alt="meet logo" /><img
+              src="imgs/client-maker.svg"
+              alt="maker logo"
+            />
+          </div>
+        </div>
+        <picture>
+          <source
+            srcset="imgs/image-hero-mobile.png"
+            media="(max-width: 34em)"
+          />
+          <img
+            class="hero__img"
+            src="imgs/image-hero-desktop.png"
+            alt="hero image"
+          />
+        </picture>
+      </div>
+    </section>
+
+    <script src="js/script.js"></script>
+  </body>
 </html>
